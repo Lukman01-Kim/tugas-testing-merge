@@ -1,22 +1,29 @@
-name: Automasi Testing Sebelum Merge
+name: Laravel Code Linting
 
 on:
-  pull request
+  push:
     branches:
-      -main
+      - "*"
+  pull_request:
+    branches:
+      - "main"
+
 jobs:
-  test:
-    runs-on: windows-latest
-
-steps:
-  - name: Checkout Repository
-    uses: actions/checkout@v4
-  
-  - name: Install HTMLHint & Stylelint
-    run: |
-      npm install -g htmlhint stylelint
-  - name: Periksa HTML
-    run: htmlhint "*/.html"
-
-  - name: Periksa CSS
-    run: stylelint "*/.css"
+  lint:
+    name: Run Laravel Pint Linter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          tools: composer, pint
+      
+      - name: Install dependencies
+        run: composer install --no-progress --no-suggest --prefer-dist
+      
+      - name: Run Laravel Pint for linting
+        run: vendor/bin/pint --test
