@@ -36,7 +36,7 @@
               <h2>Sejarah Rumah Kelahiran Bagindo Azizchan</h2>
               <div class="row">
                   <div class="col">
-                    <p style="text-align: justify">Bagindo Aziz Chan merupakan Walikota Padang kedua setelah kemerdekaan yang gigih menentang Belanda. Ia dilantik pada tanggal 15 Agustus 1946 menggantikan Mr. Abubakar Jaar. Ia gugur dalam usia 36 tahun ditembak oleh pasukan Belanda di Simpang Kandih, Kampung Lapai. Jasadnya dikebumikan di Taman Makam Pahlawan Bahagia, Bukittinggi.</p>
+                    <p style="text-align: justify">Bagindo Aziz merupakan Walikota Padang kedua setelah kemerdekaan yang gigih menentang Belanda. Ia dilantik pada tanggal 15 Agustus 1946 menggantikan Mr. Abubakar Jaar. Ia gugur dalam usia 36 tahun ditembak oleh pasukan Belanda di Simpang Kandih, Kampung Lapai. Jasadnya dikebumikan di Taman Makam Pahlawan Bahagia, Bukittinggi.</p>
                   </div>
                   <div class="col">
                     <p style="text-align: justify">Pada tahun 2005 sudah mulai rencana untuk menjadikan rumah kelahiran Bagindo Azizchan menjadi Museum, namun baru terlaksana pada Tahun 2017 dimulai lah renovasi rumah kelahiran Bagindo Azizchan yang sudah rusak akibat usia dan gempa 2009. Tahun 2018 dilanjutkan lagi dengan renovasi dan pembangunan rumah kelahiran Bagindo Azizchan. Museum ini diresmikan pada tanggal 18 Juli 2019.</p>
